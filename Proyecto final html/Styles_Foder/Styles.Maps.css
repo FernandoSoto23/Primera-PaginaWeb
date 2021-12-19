@@ -1,0 +1,118 @@
+*{
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    margin: 0%;
+    padding: 0%;
+
+}
+body.whitemode{
+    background-color:rgb(42, 42, 42);
+    color: rgb(0, 0, 0);
+}
+#map{
+    height: 500px;
+    width: 100%;
+    /* position: absolute;
+    top: 20%; */
+}
+
+/* --------------------------------------- */
+/* header de la pagina web */
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(47, 47, 47);
+    
+}
+#cabecera{ 
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 0px 20px;
+    justify-content: space-between;
+    
+}
+
+.cabecera__logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera__logo img{
+    width: 50px;
+}
+.cabecera__nav{
+position: relative;
+height: 100%;
+}
+#li__btn{
+    background-color: rgb(6, 112, 112);
+    border-radius: 20px;
+    padding: 5px;
+}
+#li__btn:hover{
+    transition: 300ms;
+    transform: scale(120%);
+}
+#btn__theme{
+    background-image: url("../Img/Img_Iconos/darkmode.png");
+    color: #ededed;
+    padding: 15px;
+    background: size 120px;
+
+    background-repeat: no-repeat;
+}
+#btn__theme:hover{
+    color: black;
+}
+nav{
+    height: 100%;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 14px;
+}
+/* -------------------------------- */
+
+#map{
+    display: inline-block;
+    border: 5px solid black;
+    width: 600px;
+    height: 450px;
+    margin-top: 10%;
+    padding: 2%;
+    background:radial-gradient(red,orange);
+}
+
+#texto{
+    display: inline-block;
+    width: 300px;
+    padding: 2%;
+    margin: 10%;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    border: 3px solid red;
+    border-radius: 5px;
+}
+#texto:hover{
+    transition: 500ms;
+    transform: scale(150%);
+}

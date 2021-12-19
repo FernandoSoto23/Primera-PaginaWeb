@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: url(../Img/Texturas/recovery.jpg);
+    background-repeat: cover;
+    background-size: 100%;
+}
+
+#divisor{
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    background: #ededed;
+    border: 3px solid red;
+    width: 30%;
+    margin: 1%;
+    padding: 5%;
+}
+#divisor p{
+    font-size: 15px;
+}
+#divisor input{
+    margin: 1%;
+}
+#btn{
+    width: 100%;
+    border-radius: 5px;
+}
+
+#inputs{
+    width: 100%;
+}

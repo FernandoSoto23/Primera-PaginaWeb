@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles_Foder/Style_InicioSesion.css">
+    <link rel="icon" href="../Img/Img_Iconos/icon.ico">
+    <script src="../Scripts/ScriptIniciarSesion.js"></script>
+    
+    <title>Login</title>
+</head>
+<body>
+     <!--Aqui vamos a agregar nuestra cabecera -->
+     <header>
+        <div id="cabecera">
+            <div class="cabecera__logo">
+                <img src="../img/Img_Iconos/taco.png">
+            </div>
+            <div class="cabecera__nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../Html_Folder/menu.html">menu</a></li>
+                        <li><a href="../Html_Folder/apiGoogleMaps.html">¿Donde estamos?</a></li>
+                        <li id="li__btn"><a href="../Html_Folder/IniciarSesion.html">Iniciar Sesion</a></li>
+                        <li><button id="btn__theme"></button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Cierre de la cabecera -->
+    <div>
+        <section>
+            <article id="articulo">
+                <img id="imagen" src="../Img/Img_Iconos/logintextura1.png">
+                <form action="INICIO SESION" name="form">
+                    <label>Correo Electronico: </label>
+                    <input class="cajatext" type="email" name="login" required placeholder="Correo Electronico...">
+                    <label>Contraseña:</label>
+                    <input class="cajatext" type="password" name="password" placeholder="Contraseña...">
+                    <input onclick=go() id="continuar" type="button" value="Iniciar Sesion">
+                    <br>
+                    <a href="../Html_Folder/RecoverAccount.html" target="_blank">¿Has olvidado la contraseña?</a>
+                </form>
+            </article>
+        </section>
+    </div>
+</body>
+</html>

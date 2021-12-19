@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background: #f5c9c9;
+}
+/* cabecera */
+#cabecera{
+    width: 50%;
+}
+#cabecera p{
+    font-size: 15px;
+}
+/* cerrar cabecera */
+
+
+/* Aqui va el css del formulario */
+#formulario{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    background: white;
+    width: 50%;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+    padding: 5%;
+}
+#formulario p{
+    font-size: 15px;
+}
+
+.inputs{
+    margin: 10px;
+    width: 50%;
+}
+
+/* Cierre formulario */
+
+#enviar{
+    padding: 5px;
+    border-radius: 10px;
+    background:radial-gradient();
+}
+
+#areaComent{
+    width: 100%;
+}

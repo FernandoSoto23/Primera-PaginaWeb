@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Img/Img_Iconos/icon.ico">
+    <link rel="stylesheet" href="../Styles_Foder/Styles_Comentarios.css">
+    <script src="../Scripts/Script_Formulario.js"></script>
+    <title>COMENTARIOS</title>
+</head>
+<body>
+    <section id="formulario">
+        <H1>GRACIAS POR VISITAR NUESTRA PAGINA</H1>
+        <p>por favor ingresa cualquier queja u opinion que tengas de la pagina, tomaremos en cuenta tu opinion y trataremos de mejorar nuestro servicio para que te sientas comodo al visitarnos</p>
+        <form action="" name="informacion">
+            Nombre:
+            <input class="inputs" type="text">
+            <br>
+            Apellido:
+            <input class="inputs" type="text">
+            <br>
+            Sexo:
+            <select class="inputs" name="select">
+                <option value="value1">Hombre</option> 
+                <option value="value2">Mujer</option>
+            </select>
+            <br>
+            Fecha de nacimiento:
+            <input class="inputs" type="date" name="" id="">
+            <br>
+            Correo:
+            <input class="inputs" type="email"  name="mail" placeholder="correo@gmail.com" required>
+            <br>
+            numero:
+            <input class="inputs" type="tel" placeholder="999-999-999">
+            <br>
+            Indica tu rango de edad:
+            <input class="inputs" type="range" name="miedad" id="miedad"
+            min="10" max="130" value="">
+            <output id="rango"></output>
+            <br>
+            <textarea id="areaComent" name="comentarios" rows="10" cols="40" placeholder="Escribe tus comentarios"></textarea>
+            <input onclick=ir()  type="button" id="enviar" value="ingresar">
+        </form>
+
+        </datalist>
+    </section>
+</body>
+</html>

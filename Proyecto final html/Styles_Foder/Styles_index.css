@@ -1,0 +1,309 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+h1 {font: bold 20px verdana,sans-serif; text-align: center;}
+h2 {font:bold 14 px verdana,sans-serif;}
+header,section,footer,aside,nav,article,figure,figcaption,hgroup
+{
+    display: block;
+}
+body{
+    background-color:#ededed;
+}
+body.whitemode{
+    background-color:rgb(42, 42, 42);
+    color: rgb(0, 0, 0);
+}
+/* ----------------------------- */
+
+/* Titulo/Nombre Pagina */
+#titulo{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(248, 247, 247, 0.294)), url("../Img/img_Index/Comida.jpg");
+    background-size: 100%;
+     background-repeat:no-repeat;   
+    background-size:cover;
+    padding: 10%;
+    color: white;
+   /*  text-align: center; */
+    margin-top: 3%;
+    /* align-items: center; */
+}
+#titulo h1{
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    font-family:cursive;
+    text-shadow: red 3px 3px 3px;
+}
+#titulo div{
+    display: inline-block;
+    width: 30%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: right;
+}
+
+#titulo p{
+    font-size: 10px;
+}
+#titulo h2{
+    text-align: center;
+    background-color: rgb(35, 117, 117);
+    border-radius: 10px;
+}
+
+#titulo a{
+    font-size: 50%;
+    background:yellow;
+    color: black;
+    text-align: center;
+    width: 75%;
+    padding: 1%;
+    border-radius: 15px;
+    border: 1px solid;
+}
+/* ----------------------- */
+
+
+#Agrupar
+{
+    width: 95%;
+    margin: 2% auto; 
+    text-align: left;
+    display: block;
+}
+/* --------------------------------------- */
+/* header de la pagina web */
+
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: rgb(47, 47, 47);
+    
+}
+#cabecera{ 
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    
+}
+
+.cabecera__logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecera__logo img{
+    width: 50px;
+}
+.cabecera__nav{
+position: relative;
+height: 100%;
+}
+#li__btn{
+    background-color: rgb(6, 112, 112);
+    border-radius: 20px;
+    padding: 5px;
+}
+#li__btn:hover{
+    transition: 300ms;
+    transform: scale(120%);
+}
+#btn__theme{
+    background-image: url("../Img/Img_Iconos/darkmode.png");
+    color: white;
+    padding: 15px;
+   
+
+    background-repeat: no-repeat;
+}
+#btn__theme:hover{
+    color: black;
+}
+nav{
+    height: 100%;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 20px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 14px;
+}
+/* -------------------------------- */
+
+
+
+.seccion
+{
+    float: left; 
+    width: 70%; 
+    margin: 2%;
+    background:radial-gradient(red,black);
+    border-radius: 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.918) -5px -5px 3px;
+    text-align: center;
+}
+.seccion video{
+    width: 95%;
+    margin-left: 2%;
+}
+#columna
+{
+    float: left;
+    width: 24.6%;
+    margin: 2% 0%; 
+    padding: 1%; 
+    background: linear-gradient(red,rgb(248, 91, 91)) ;
+    border-radius: 10px 10px;
+    transform: scale(1);
+}
+#columna:hover
+{
+    transition: 400ms;
+    transform: scale(1.1);
+}
+#Pie
+{
+    clear: both;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    border-top: 2px solid #999999;
+    background-color: rgb(47, 47, 47);
+    margin: 0%;
+    padding: 2%;
+    font-size: 15px;
+}
+
+#pie2{
+    clear: both;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    border-top: 2px solid #999999;
+    background-color: rgb(47, 47, 47);
+    margin: 1%;
+    margin-bottom: 10%;
+    padding: 1px;
+}
+
+/* ------------------------------ */
+
+.articulos{
+    display: inline-block;
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: black 3px 3px 3px;
+}
+.articulos figcaption{
+    font-size: 50%;
+}
+.imagen
+{
+    display: flex;
+    padding: 0px;
+    margin: 3%;
+    width: 95%;
+    max-height: 30%;
+}
+.articulos:hover{
+    transition: 300ms;
+    transform: translate(2px);
+}
+
+blockquote p{
+    font-size: 50%;
+}
+#seccion2{
+    display: flex;
+    width: 85%; 
+    margin: 2% 10%;
+    background-image: url(../Img/Texturas/textura_5.jpg);
+    box-shadow: rgba(0, 0, 0, 0.918) -5px -5px 3px;
+
+}
+#seccion2 article{
+    display: block;
+    width: 40%;
+    background:linear-gradient(white 20%,red );
+    margin: 5%;
+    border-radius: 15px;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Objetivos */
+.seccion__objetivos{
+    width: 80%;
+    margin: 2% 10%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    text-align: center;
+
+}
+#div__into{
+    display: inline;
+}
+.div__objetivos{
+    display: inline-block;
+    width: 40%;
+    margin: 5%;
+    padding: 3%;
+    background: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.seccion__objetivos img{
+    position: relative;
+    top: 1%;
+    width: 250px;
+    margin-left: 5%;
+}
+.div__objetivos p{
+    font-size: 65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div__objetivos span{
+    font-size: 100%;
+    display: inline-block;
+    text-align:  center;
+    background:rgb(125, 125, 251);
+    border-radius: 50%;
+    width: 25px;
+}
+/* ------------------------- */
+
+/* asides */
+
+aside a{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
